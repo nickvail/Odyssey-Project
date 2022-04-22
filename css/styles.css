@@ -1,0 +1,280 @@
+/* HTML */
+@font-face {
+    font-family: 'Lazenby Computer';
+    src: url('../fonts/LazenbyCompLiquid.ttf')
+    format('truetype');
+}
+/*Font courtesy of https://www.1001fonts.com/lazenby-computer-font.html */
+
+html {
+    font-family: 'Lazenby Computer', Arial, Helvetica, sans-serif;
+    background-image: url("../images/background.png");
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat:repeat-y;
+}
+/* Background image courtesy of http://pixelartmaker.com/art/ece60cc31aeebda */
+
+/* HEADER */
+header {
+    color: white;
+    font-size: 30px;
+}
+
+header nav ul li {
+    display: inline;
+    background-color: black;
+}
+
+header nav ul li a {
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+}
+
+/* HEADER IMAGES */
+#sanders {
+    margin-left: 56px;
+}
+
+#magna {
+    float: right;
+    margin-right: 56px;
+}
+
+/* BODY */
+body {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+/* HOMEPAGE  */
+main {
+    color: white;
+}
+
+main h1 {
+    font-size: 2.75em;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#tagline  {
+    font-size: 2.25em;
+    text-align: center;
+    margin-top: 0;;
+}
+
+main section p {
+    font-size: 1.75em;
+    display: inline;
+    float: left;
+    padding-left: 56px;
+    padding-right: 56px;
+    text-align: center;
+    background-color: black;
+}
+
+main section h1 a {
+    background-color: none;
+    text-decoration: none;
+    color: red;
+}
+
+.price {
+    color: red;
+}
+
+/* HOMEPAGE - IMAGES */
+#console {
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 24.12px;
+    padding-bottom: 24.12px;
+}
+
+/* LEARN MORE */
+p.desc,
+#list {
+    font-size: 1.75em;
+    text-align: left;
+    display: block;
+    background-color: black;
+    float: none;
+    padding-right: 56px;
+}
+
+p.desc {
+    margin-bottom: 0;
+}
+
+#list{
+    margin-top: 0;
+    list-style-type: square;
+}
+
+/* LEARN MORE - IMAGES */
+#display {
+    float: left;
+    padding-left: 56px;
+    padding-right: 56px;
+    padding-bottom: 56px;;
+}
+
+/* ABOUT US */
+h1.sandAss {
+    text-align: left;
+    background-color: black;
+    margin-left: 56px;
+}
+
+p.sandAss {
+    background-color: black;
+    text-align: left;
+    font-size: 26px;
+    margin-left: 56px;
+    height: 443px;
+}
+
+h1.vox {
+    text-align: right;
+    background-color: black;
+    margin-right: 56px;
+}
+
+p.vox {
+    background-color: black;
+    text-align: right;
+    font-size: 26px;
+    margin-right: 56px;
+}
+
+/* ABOUT US - IMAGES */
+figure#baer {
+    float: right;
+    margin-right: 56px;
+}
+
+figcaption.baer p {
+    margin-top: 4px;
+    text-align: right;
+    background-color: black;
+    font-size: 17px;
+}
+
+figure#speaker {
+    float: left;
+    margin-left: 56px;
+}
+
+figcaption.speaker {
+    margin-top: 4px;
+    text-align: left;
+    background-color: black;
+    font-size: 17px;
+}
+
+/* FEEDBACK */
+.give {
+    text-align: center;
+    background-color: black;
+}
+
+main fieldset {
+    margin-left: 14em;
+    margin-right: 14em;
+    text-align: center;
+    outline-color: white;
+}
+
+.name,
+.email,
+div textarea,
+main fieldset {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+.email {
+    margin-right: 12px;
+}
+
+#comments {
+    margin-right: 31px;
+}
+
+#submit {
+    font-size: 24px;
+}
+
+#submit,
+div label {
+    font-family: 'Lazenby Computer';
+}
+
+/* CUSTOMER SUPPORT */
+main#contact,
+main#contact section ul li {
+    text-align: center;
+    list-style-type: none;
+}
+
+section.magna h2, 
+section.sanders h2 {
+    text-align: center;
+    font-size: 32px;
+    text-decoration: underline;
+}
+
+section ul.magna,
+section ul.sanders {
+    padding: 0;
+    font-size: 24px;
+}
+
+main h1.contact span {
+    background-color: black;
+    text-align: center;
+}
+
+p.sentence {
+    font-size: 24px;
+}
+
+div.manual {
+    text-align: center;
+}
+
+div.manual p span a {
+    color: red;
+    text-decoration: none;
+    background-color: black;
+    font-size: 24px;
+}
+
+/* THANK YOU */
+#echo,
+#echo2 {
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+/* FOOTER */
+footer p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
